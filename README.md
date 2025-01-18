@@ -18,7 +18,7 @@ This Python program can be run directly or within a Docker container.
 2. Open Terminal and enter the following commands:
 
     ```bash
-    cd T2I
+    cd t2i
     docker build -t log-stats-server .  # Building the Docker Image
     docker run -d -p 8080:8080 -v /path/to/logs:/app -e LOG_FILE_PATH=/app/access.log log-stats-server  # Run the Docker Container
     ```

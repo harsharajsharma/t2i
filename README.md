@@ -5,7 +5,7 @@ This Python program can be run directly or within a Docker container.
 ## Run it Directly:
 
 1. Copy this repo/folder to your Local Machine, which already has Python installed.
-2. Edit the relative path of the Access log in line 10 of the `stats.py` file.
+2. Edit the path of the Access log in line 10 of the `stats.py` file.
 3. Go to Terminal and run the following command:
     ```bash
     python3 stats.py
